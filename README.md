@@ -7,7 +7,7 @@ The networks are stored in a format compatile with [*NEXTNet*](https://github.co
 [*NEXTNetR*](https://oist.github.io/NEXTNetR), the R interface to *NEXTNet*, provides direct access to these networks with 
 ```
 nw <- empirical_network(name=...) # for static unweighted networks
-nw <- empirical_contact_network(name=..., dt=...) # for temporal contact networks
+nw <- empirical_contact_temporalnetwork(name=..., dt=...) # for temporal contact networks
 ```
 
 To use these networks with the command-line tool, download the respective file and run `nextnet` with
